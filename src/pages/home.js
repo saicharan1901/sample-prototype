@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-export const Dashboard = () => {
+const Dashboard = () => {
     const sampleData = [
         {
             name: 'John Doe',
@@ -113,3 +113,5 @@ export const Dashboard = () => {
         </div>
     );
 };
+
+export default Dashboard;
