@@ -70,7 +70,7 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto lg:py-4 py-1 lg:px-10 px-1 lg:w-full lg:text-xl text-sm  ">
+            <div className="container mx-auto lg:py-4 py-1 lg:px-10 px-1 lg:w-full lg:text-xl text-xs  ">
                 <table className="table-auto w-full bg-white border shadow-md rounded-md overflow-hidden">
                     <thead>
                         <tr>
