@@ -6,21 +6,35 @@ const Dashboard = () => {
         {
             name: 'John Doe',
             picture: '/1.jpeg',
-            base: 'HYD',
-            seniority: '2020, Sep 01',
+            base: 'IAH',
+            seniority: '3 year Anniversary (2020, Sep 01)',
         },
         {
             name: 'Jane Smith',
             picture: '/2.jpeg',
-            base: 'BLR',
-            seniority: '2019, Oct 15',
+            base: 'ORD',
+            seniority: '4 year Anniversary (2019, Oct 15)',
 
         },
         {
             name: 'Bob Johnson',
             picture: '/3.jpeg',
-            base: 'DEL',
-            seniority: '2021, Mar 20',
+            base: 'SFO',
+            seniority: '2 year Anniversary (2021, Mar 20)',
+
+        },
+        {
+            name: 'Alexis Rose',
+            picture: '/4.jpeg',
+            base: 'EWR',
+            seniority: '1 year Anniversary (2022, Nov 10)',
+
+        },
+        {
+            name: 'Abigail Smith',
+            picture: '/5.jpeg',
+            base: 'DEN',
+            seniority: '2 year Anniversary (2021, Mar 25)',
 
         },
     ];
