@@ -203,7 +203,7 @@ const Dashboard = () => {
       picture: '/1.jpeg', // Picture 1 for male
       base: 'ORD',
       seniority: '4 year Anniversary (2019, Oct 15)',
-      channel: 'FA Interested',
+      channel: 'Eligible by Seniority',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -269,7 +269,7 @@ const Dashboard = () => {
       picture: '/5.jpeg', // Picture 5 for female
       base: 'DEN',
       seniority: '3 year Anniversary (2020, Nov 15)',
-      channel: 'FA Interested',
+      channel: 'SOAR Certified',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -296,7 +296,7 @@ const Dashboard = () => {
       picture: '/3.jpeg', // Picture 3 for male
       base: 'ORD',
       seniority: '4 year Anniversary (2019, Oct 15)',
-      channel: 'FA Interested',
+      channel: 'SOAR Certified',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -351,7 +351,7 @@ const Dashboard = () => {
       picture: '/5.jpeg', // Picture 5 for female
       base: 'SFO',
       seniority: '4 year Anniversary (2019, Nov 08)',
-      channel: 'FA Interested',
+      channel: 'Eligible by Seniority',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -417,7 +417,7 @@ const Dashboard = () => {
       picture: '/5.jpeg', // Picture 5 for female
       base: 'LAX',
       seniority: '9 month Anniversary (2022, Jun 5)',
-      channel: 'FA Interested',
+      channel: 'Eligible by Seniority',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -458,7 +458,7 @@ const Dashboard = () => {
       picture: '/1.jpeg', // Picture 1 for male
       base: 'DEN',
       seniority: '2 year Anniversary (2021, Mar 10)',
-      channel: 'Leader Identified',
+      channel: 'Eligible by Seniority',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -485,7 +485,7 @@ const Dashboard = () => {
       picture: '/2.jpeg', // Picture 2 for male
       base: 'DEN',
       seniority: '1 year Anniversary (2022, Jun 20)',
-      channel: 'Leader Identified',
+      channel: 'SOAR Certified',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -594,7 +594,7 @@ const Dashboard = () => {
       picture: '/1.jpeg', // Picture 1 for male
       base: 'EWR',
       seniority: '4 year Anniversary (2019, Nov 8)',
-      channel: 'Leader Identified',
+      channel: 'Eligible by Seniority',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -621,7 +621,7 @@ const Dashboard = () => {
       picture: '/4.jpeg', // Picture 4 for female
       base: 'LAX',
       seniority: '2 year Anniversary (2021, Mar 10)',
-      channel: 'FA Interested',
+      channel: 'SOAR Certified',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -669,13 +669,12 @@ const Dashboard = () => {
       references: "Available upon request"
     },
 
-
     {
       name: 'Alexander Adams (M)',
       picture: '/1.jpeg', // Picture 1 for male
       base: 'EWR',
       seniority: '9 month Anniversary (2022, Aug 15)',
-      channel: 'Leader Identified',
+      channel: 'SOAR Certified',
       objective: 'Motivated and enthusiastic individual seeking a Flight Attendant position with a reputable airline to provide excellent passenger service and ensure safety during flights.',
       education: 'High School Diploma Name of High School], [City, State] Graduation Date: [Month Year]',
       certifications: "- FAA Certification for Flight Attendants  - CPR and First Aid Certification",
@@ -826,6 +825,7 @@ const Dashboard = () => {
                 <option value="FA Interested">FA Interested</option>
                 <option value="Leader Identified">Leader Identified</option>
                 <option value="Eligible by Seniority">Eligible by Seniority</option>
+                <option value="SOAR Certified">SOAR Certified</option>
               </select>
             </th>
             <th className="px-1 lg:px-4 py-2 cursor-pointer">Pictures</th>
